@@ -1,0 +1,244 @@
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for effect */
+}
+
+.home-icon{
+    color:black;
+}
+.email-icon{
+    color: black;
+ 
+}
+.num-size{
+    font-size: 16px;
+    color:black;
+}
+.headerpara{
+  margin-bottom: 0px !important;
+  font-size: 14px;
+}
+.headerpara-hr{
+  margin: 0 ;
+}
+
+.logoNavMain{
+  height: 100px;
+  width: 135px;
+}
+
+.tail-text{
+  color: black;
+}
+.dropdown-item:hover{
+  color: white;
+  background-color: blue;
+}
+
+.b-logo{
+    /* height: 100px; */
+    width: 200px;
+}
+
+.navbar-header .nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+  }
+  
+  .container-fluid{
+    /* padding: 5px 50px; */
+  }
+  
+  .navbar-left-content {
+    display: flex;
+  }
+  
+  .navbar-right-content {
+    display: flex;
+    /* padding: 5px 0; */
+  }
+  
+  .nav-logo-mbl {
+    display: none;
+  }
+  
+  .headers .nav-link {
+    margin: 0px 10px;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 799px) {
+   
+    .nav-logo-mbl {
+      width: 100px;
+      height: 40px;
+      display: flex;
+    }
+   
+    .container-fluid {
+      /* padding: 5px 12px; */
+  }
+    .header-mail{
+      padding-top: 10px !important;
+    }
+    .navbar{
+      display: flex;
+      flex-direction: column !important;
+      width: 100% !important;
+      background-color: white;
+      /* font-family: 'Times New Roman', Times, serif; */
+      font-weight: 600;
+      /* border-radius: 5px; */
+    }
+    .header-row{
+      display: flex;
+      flex-direction: column;
+      align-items: start !important;
+    }
+    .numberdiv{
+      padding-top: 5px !important;
+    }
+
+    .navbar-toggler-icon {
+      background-color: grey !important;
+    }
+  }
+
+
+
+
+
+
+
+/* .mobileres-nav{
+    background-color: crimson;
+}
+
+.top-nav-icon{
+    height: 23px;
+    width: 23px;
+}
+
+.topnavposi{
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.tail-text-ss{
+    color: #016AAC ;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out ;
+}
+
+.tail-text-ss:hover{
+
+    color: grey ;
+    font-weight: 600;
+}  
+
+.Any-Enquiry{
+    font-weight: bold;
+    background-color: #0268B2 ;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+   0%{
+    transform: scale(1);
+   } 
+   50%{
+    transform: scale(1.09);
+   } 
+   100%{
+    transform: scale(1);
+   } 
+}
+
+.Any-Enquiry:hover{
+    font-weight: bold;
+    background-color:rgb(255, 255, 255);
+    color: crimson !important;
+}
+
+.underline-hover {
+    text-decoration: none;
+    position: relative;
+    padding: 5px 8px;
+}
+
+.underline-hover:hover{
+    color: blue;
+}
+
+.underline-hover::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor; 
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.underline-hover:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
+.logoNavMain{
+    height: 60px;
+    width: 60px;
+}
+
+@media screen and (width<=799px) {
+    .mobileres-nav {
+        display: none !important;
+    } 
+
+    .underline-hover {
+        color: crimson;
+        text-decoration: none;
+        position: relative;
+        padding: 5px 8px;
+    }
+}
+
+
+
+.scrolling-text {
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+  } 
+
+  .scrolling-text span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 25s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .scrolling-text-navtop{
+    color: white;
+  } */

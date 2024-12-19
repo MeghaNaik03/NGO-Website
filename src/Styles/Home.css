@@ -1,0 +1,450 @@
+/* .owl-theme .owl-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background:blue;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.owl-theme .owl-dot.active {
+    opacity: 1;
+} */
+
+/* ====== Home Carousel =====*/
+
+/* *{
+    outline: 1px solid red;
+} */
+
+/* .item{
+    height: 250px;
+    width: 100%;
+} */
+
+/* .whole-div{
+    background-color: lightskyblue;
+} */
+
+.carousel-img-main{
+    height: 500px !important;
+    width: 100%;
+}
+
+.carousel-text{
+  
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: black;
+}
+
+.carosel-desc{
+    font-size: 25px;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.carousel-contents{
+    height: 350px;
+    width: 50%;
+    background: RGB(255, 255, 255, 0.4);
+    /* background-color:transparent; */
+    /* background-color: #fff; */
+    border-radius: 10px;
+}
+
+.donate{
+    padding: 15px 20px;
+    margin-bottom: 100px;
+    /* margin-left: 150px;
+    margin-right: 800px; */
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.donate:hover{
+    background-color: white;
+    color: blue;
+}
+
+/*===== Our History =====*/
+
+/* .about-bannerimg {
+    background-image: url('../Assets/history-backgroundimg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+  } */
+
+.ourhistory-img{
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.ourhistory-img1{
+    height: 240px;
+    width: 50%;
+    /* border-radius: 10px; */
+}
+
+.ourhistory-img3{
+    height: 240px;
+    width: 300px;
+    border-radius: 0px;
+}
+
+.ourhistory-link{
+    color: unset;
+    text-decoration: none;
+}
+
+.ourhistory-btnn{
+    /* height: 40px; */
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    margin-top: 25px;
+    margin-left: 225px;
+    padding: 15px 40px;
+    /* box-shadow: 2px 2px 2px gray; */
+    /* border: none; */
+}
+
+.ourhistory-btnn:hover{
+    color: blue;
+    background-color: white;
+}
+
+/* .back-img{
+    background-image: url('/Assets/history-backgroundimg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} */
+
+.backgrnd-img-contents{
+    position: relative;
+    bottom: 550px;
+}
+
+/*===== Our Services =====*/
+
+.entire-cardbody{
+    height: 200px;
+    width: 100%;
+}
+
+.entiree-cardbody{
+    height: 275px;
+    width: 100%;
+}
+
+.entireee-cardbody{
+    height: 400px;
+    width: 100%;
+}
+
+.service-link{
+    color: unset;
+    text-decoration: none;
+}
+
+  .serviceDesc{
+    display: -webkit-box; /* Required for the webkit-based browsers */
+    -webkit-line-clamp: 3; /* Limits the text to 2 lines */
+    -webkit-box-orient: vertical; /* Specifies vertical orientation */
+    overflow: hidden; /* Hides text that exceeds the specified number of lines */
+    text-overflow: ellipsis; 
+  }
+
+  .service-viewmore{
+    color: unset;
+    text-decoration: none;
+  }
+
+  .service-view-btn:hover{
+    color: blue;
+    background-color: #fff;
+  }
+
+ /*===== Donate Now =====*/
+
+ .video-text{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    bottom: 200px;
+    padding-left: 500px;
+    /* left: 500px; */
+  }
+
+  .video-view-btnn{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color:blue;
+    color: white;
+    position: relative;
+    bottom: 200px;
+    margin-left: 500px;
+   /* padding-left: 100px; */
+    /* left: 500px; */
+  }
+
+  /*===== Testimonial =====*/
+
+ .contact-bxx{
+    background-color: lightskyblue;
+    border-radius: 10px;
+     padding: 30px;
+    /* position: relative; */
+    height: 250px;  
+    }
+
+ .header-image{
+    height: 200px;
+    width: 70px;
+ }
+
+ .background-image{
+    height: 300px;
+    width: 100%;
+ }
+
+ .back-img-para{
+    color: #fff;
+    font-size: 40px;
+ } 
+
+ .btn-back-img{
+    margin: 150px 10px 10px -195px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+
+ .contact-us{
+    color: unset;
+    text-decoration: none;
+ }
+
+/* .testimonial-img1{
+    height: 200px;
+} */
+
+.testimonial-name{
+    color: unset;
+    text-decoration: none;
+}
+
+.name{
+    text-align: center;
+}
+
+.test-link{
+    color: unset;
+    text-decoration: none;
+}
+
+.testDesc{
+    display: -webkit-box; /* Required for the webkit-based browsers */
+    -webkit-line-clamp: 3; /* Limits the text to 2 lines */
+    -webkit-box-orient: vertical; /* Specifies vertical orientation */
+    overflow: hidden; /* Hides text that exceeds the specified number of lines */
+    text-overflow: ellipsis; 
+  }
+
+  .test-btn{
+    position: relative;
+    padding: 10px 20px;
+    left: 1050px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+  }
+
+  .test-btn:hover{
+    color: blue;
+    background-color: white;
+  }
+
+  /* .couse-img{
+    height: 300px;
+    width: 100px;
+    margin-left: 100px;
+  } */
+
+  .img-fluid{
+    height: 400px;
+    position: relative;
+    right: 25px;
+  }
+
+  /* .service-fullbox{
+    height: 500px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px transparent;
+    background-color: rgb(1,131,250);
+  } */
+  
+
+ /* .service-view-more{
+    position: relative;
+    left: 50px;
+} */
+
+.service-mainbox {
+    height: 400px;
+    padding: 20px;
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 8px transparent;
+    background-color: white;
+   
+    /* display: flex; */
+    /* overflow-x: hidden;  */
+    /* position: relative;
+    top: 24px; */
+}
+
+.donate-text{
+    font-size: 25px;
+}
+
+  @media screen and (max-width: 799px){
+
+    .service-mainbox {
+        font-size: 10px;
+        height: 400px;
+        padding: 20px;
+        /* border-radius: 10px; */
+        box-shadow: 0 4px 8px transparent;
+        background-color: white;
+        /* display: flex
+    ; */
+        /* overflow-x: hidden; */
+    }
+
+    .donate-text{
+        font-size: 15px !important;
+    }
+    
+    .img-fluid{
+        height: 200px;
+        position: relative;
+        left: 10px;
+      }
+
+    .carosel-desc{
+        font-size: 15px;
+        padding-bottom: 15px;
+        color: black;
+    }
+
+    .carousel-contents{
+        height: 220px;
+        width: 50%;
+        background: RGB(255, 255, 255, 0.4);
+        /* background-color:transparent; */
+        /* background-color: #fff; */
+        border-radius: 10px;
+        /* margin-top: 15px;
+        z-index: 999; */
+        position: relative;
+        top: 15px;
+    }
+
+    .carousel-img-main{
+        height: 250px !important;
+        width: 100%;
+    }
+
+    .carousel-text{
+        padding-bottom: 0px;
+        font-size: 15px;
+    }
+
+    .donate{
+        padding: 2px 10px;
+        /* margin-bottom: 0px !important; */
+        /* margin-left: 150px;
+        margin-right: 800px; */
+        border-radius: 25px;
+        background-color: blue;
+        color: white;
+        font-size: 9px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .about-bannerimg{
+        height: 400px !important;
+        width: 100%;
+    }
+
+    .ourhistory-img{
+        height: 200px !important;
+        border-top-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;     
+    }
+
+    .ourhistory-img3{
+        padding-top: 10px;
+        height: 100px;
+        width: 150px;
+        border-radius: 0px;
+    }
+
+    .ourhistory-btnn {
+        /* height: 30px; */
+        border-radius: 5px;
+        color: white;
+        background-color: blue;
+        margin-left: 70px;
+        /* box-shadow: 2px 2px 2px gray; */
+        /* border: none; */
+    }
+
+    .back-img-para{
+        color: #fff;
+        font-size: 25px;
+     } 
+    
+     .btn-back-img {
+        margin: 80px 0px 4px -112px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    .header-image{
+        height: 175px;
+        width: 70px;
+     }
+    
+     .entire-cardbody{
+        height: 200px;
+        width: 100%;
+    }
+
+    .background-image{
+        height: 200px !important;
+    }
+
+    .testimonial-img1{
+        height: 200px;
+        /* width: 50px; */
+    }
+    
+    .entiree-cardbody{
+        height: 290px;
+        width: 100%;
+    }
+
+  }

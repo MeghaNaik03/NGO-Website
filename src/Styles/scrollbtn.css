@@ -1,0 +1,77 @@
+.scrollbtn{
+    position: fixed;  
+   width: 55px;
+   height: 55px; 
+   left: 95%; 
+   bottom: 60px; 
+   font-size: 3rem; 
+   z-index: 1; 
+   cursor: pointer; 
+   color: green; 
+   animation: bounce 0.8s ease-in-out; 
+            animation-direction: alternate; 
+            animation-timing-function: cubic-bezier(.5, 0.05, 1, .5); 
+            animation-iteration-count: infinite; 
+}
+
+.scrollbtn:hover{
+    animation: none;
+}
+
+/* Default icon styles */
+
+.arrow-icon {
+    color: black;
+    font-size: 45px !important;
+  }
+  
+
+@keyframes bounce { 
+    from { 
+        transform: translate3d(0, 0, 0); 
+    } 
+    to { 
+        transform: translate3d(0, 20px, 0); 
+    } 
+    }
+
+@media only screen and (max-width: 749px) {
+    .scrollbtn{
+        bottom: 40px; 
+        left: 78%;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width:900px){
+    .scrollbtn{
+        bottom: 40px; 
+        left: 88%;
+    }
+ } 
+
+
+ @media screen and (max-width:799px){
+
+    .scrollup-arrowicon{
+        font-size: 25px !important;
+        position: fixed;
+        bottom: 70px;
+        right: 27px;
+    }
+    .scrolldown-arrowicon{
+        font-size: 25px !important;
+        position: fixed;
+        bottom: 70px;
+        right: 27px;
+    }
+  
+ }
+
+
+    /* Smaller icon size for mobile screens */
+    
+    @media (max-width: 768px) {
+        .arrow-icon {
+        font-size: 30px; /* Adjust the size as needed for mobile */
+        }
+    }
