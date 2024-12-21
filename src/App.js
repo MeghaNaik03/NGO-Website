@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './Components/Header';
 import Home from './Components/Home';
+import OurHistory from './Components/OurHistory';
 import Footer from './Components/Footer';
 import Whatsapp from './Components/Whatsapp';
 import ScrollButton from './Components/ScrollButton';
@@ -19,6 +20,16 @@ const App = () => {
           <>
             <Header />
             <Home />
+            <Whatsapp />
+            <ScrollButton />
+            <Footer />
+          </>
+        } />
+
+  <Route path="/ourhistory" element={
+          <>
+            <Header />
+            <OurHistory/>
             <Whatsapp />
             <ScrollButton />
             <Footer />
