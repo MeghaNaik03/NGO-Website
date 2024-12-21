@@ -1,0 +1,263 @@
+/* .about-maindiv{
+    background-color: lightskyblue;
+} */
+
+/* Banner */
+
+.breadcrumbt{
+    height: 30vh ;
+    width: 50%;
+   flex-direction: column;
+   padding-top: 101px; 
+   }
+   
+   .mbl-responsive-breadcrumbs .breadcrumb-item::before {
+       color: white !important; /* Change the separator color */
+   }
+   
+   .home-small-heading,
+   .abtus-small-heading {
+       color: blue !important; /* Preserve the text color */
+   }
+   
+   .breadcrumb-item.active.abtus-small-heading {
+       color: white !important; /* Active item color */
+   }
+   
+   /* About Content */
+   
+   /* .about-box1{
+   height: 400px;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px transparent;
+   background-color: rgb(0,105,176);
+   } */
+   
+   /* .about-box2{
+       height: 400px;
+       padding: 30px;
+       border-radius: 10px;
+       box-shadow: 0 4px 8px transparent;
+       background-color: rgb(0,105,176);
+       } */
+   
+   .abtus-heading{
+       color: white;
+       position: relative;
+       left: 330px;
+       bottom: 27px;
+   }
+   
+   .abtus-small-heading{
+       color: white;
+   }
+   
+   .ourhistory-img1{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    }
+
+   .abt-content-img1{
+       height: 300px;
+       width: 400px;
+       border-radius: 10px;
+   }
+   
+   .abt-content-img2{
+       height: 300px;
+       width: 400px;
+       margin-left: 100px;
+       border-radius: 10px;
+   }
+   
+   
+   /* Mission and Vision */
+   
+   .mission-vision-heading{
+       font-size: 40px;
+   }
+   
+   .custom-card-header{
+       background-color:blue;
+       /* background-color: cornflowerblue; */
+   }
+   
+   
+   @media screen and (max-width: 799px){
+       .mission-vision-heading{
+           font-size: 25px;
+           position: relative;
+           top: 20px;
+       }
+
+       .ourhistory-img1{
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+        }
+   }
+
+   #background{
+    background: rgb(0,0,128,0.5);
+    border-radius: 10px;
+        /* background-color: black; */
+        color: white;
+        padding: 20px;   
+        height: 350px !important;
+
+    }
+
+    /* #background:hover{
+        color: black;
+        background-color: white;
+    } */
+
+    .border{
+        border: 1px solid white;
+        border-radius: 10px;
+        height: 300px;
+        padding-top: 100px;
+    }
+
+    .border:hover{
+        color: black;
+        background-color: white;
+    }
+
+   /* Our Partners */
+   
+   /* .ourpartners-box{
+       height: 200px;
+       padding: 30px;
+       border-radius: 10px;
+       box-shadow: 0 4px 8px transparent;
+       background-color: rgb(0,105,176);
+   } */
+
+   /* .testimonial-img1 {
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 50% !important;
+    margin: auto;
+    position: relative;
+    left: 205px;
+}
+    */
+
+   .ourpartner-heading{
+       font-size: 40px;
+   }
+   
+   .partners{
+       height: 200px;
+       width: 200px;
+   }
+   
+   .partener-icons{
+       height: 250px !important;
+       width: 100% !important;
+       /* position: relative; */
+       /* left: 79px; */
+   }
+   
+   .gallery-viewmore{
+    color: unset;
+    text-decoration: none;
+   }
+   
+   .gallery-viewmore-btn{
+    height: 40px;
+    width: 200px;
+    position: relative;
+    left: 1000px;
+    top: 10px;
+    border-radius: 10px;
+    color: blue;
+    background-color: white;
+   }
+
+   .gallery-viewmore-btn:hover{
+    color: white;
+    background-color: blue;
+   }
+
+   /*====== Video =====*/
+
+/* .video{
+  height: auto;
+  width: 100%;
+} */
+
+.video {
+    height: auto;
+    width: 100%;
+  }
+  
+  .dhfihsef{
+    padding-left: 0px;
+  }
+  
+  .video-text{
+    color: white;
+    font-size: 35px;
+    position: relative;
+    bottom: 491px;
+    right: 91px;
+  }
+  
+  .video-view-btnn{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    bottom: 490px;
+    right: 55px;
+  }
+
+
+   @media screen and (max-width: 799px) {
+
+        .about-bannerimg{
+           height: 100px !important;
+       }
+
+       .abtus-heading {
+        color: white;
+        position: relative;
+        left: 77px;
+        bottom: 75px;
+        }
+
+       .mbl-responsive-breadcrumbs{
+           position: absolute;
+           top: 365px;
+       }
+   
+       .abt-content-img1{
+           height: 200px;
+           width: 300px;
+           position: relative;
+           bottom: 20px;
+       }
+   
+       .abt-content-img2{
+           height: 200px;
+           width: 300px;
+           position: relative;
+           right: 100px;
+           top: 12px;
+       }
+   
+       .ourpartner-heading{
+           font-size: 25px;
+       }
+   
+       .partener-icons{
+           height: 100px !important;
+           width: 100%;
+       }
+     }
